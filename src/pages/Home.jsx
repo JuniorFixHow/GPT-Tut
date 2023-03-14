@@ -177,7 +177,7 @@ const Home = () => {
     return (
         <div className='home' >
             <div className="top">
-                <span onClick={()=>window.open('https://github.com', '_blank')} className="left">Make this page better</span>
+                <span onClick={()=>window.open('https://github.com/JuniorFixHow/GPT-Tut', '_blank')} className="left">Make this page better</span>
                 <div onClick={()=>setBlack(!black)} className={black? 'white-box':'black-box'} ></div>
             </div>
 
